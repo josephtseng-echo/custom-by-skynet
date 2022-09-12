@@ -1,0 +1,163 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/data/josephzeng/todo/josephtseng-github/custom-by-skynet/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20220828.0/
+$(BIN)mypack.so	mylualib-src/Makefile	/^$(BIN)mypack.so: lua-mypack.c$/;"	kind:t	line:31
+$(BIN)mypacket.so	mylualib-src/Makefile	/^$(BIN)mypacket.so: lua-mypacket.c$/;"	kind:t	line:34
+BIN	mylualib-src/Makefile	/^BIN = $(ROOT)\/myluaclib\/$/;"	kind:m	line:18
+BYTE	mylualib-src/lua-mypacket.c	/^typedef unsigned char BYTE;$/;"	kind:t	line:10	typeref:typename:unsigned char	file:
+FLAG	mylualib-src/Makefile	/^FLAG = -g -Wall -Iskynet\/3rd\/lua -fPIC --shared$/;"	kind:m	line:25
+HASHSIZE	mylualib-src/lua-mypack.c	/^#define HASHSIZE /;"	kind:d	line:16	file:
+INCLUDE	mylualib-src/Makefile	/^INCLUDE = -I$(SKYNET_ROOT)\/skynet-src$/;"	kind:m	line:26
+JSON	mylualib-src/Makefile	/^JSON = json$/;"	kind:m	line:22
+LIB	mylualib-src/Makefile	/^LIB = $/;"	kind:m	line:27
+LUA_LIB	mylualib-src/lua-mypack.c	/^#define LUA_LIB$/;"	kind:d	line:1	file:
+LUA_PACKETHANDLE	mylualib-src/lua-mypacket.c	/^#define LUA_PACKETHANDLE /;"	kind:d	line:8	file:
+MY_HEADER_SIZE	mylualib-src/lua-mypack.c	/^#define MY_HEADER_SIZE /;"	kind:d	line:69	file:
+PACKET_MAX_BUFFER	mylualib-src/lua-mypacket.c	/^#define PACKET_MAX_BUFFER /;"	kind:d	line:9	file:
+QUEUESIZE	mylualib-src/lua-mypack.c	/^#define QUEUESIZE /;"	kind:d	line:15	file:
+ROOT	mylualib-src/Makefile	/^ROOT = ..$/;"	kind:m	line:16
+SKYNET_ROOT	mylualib-src/Makefile	/^SKYNET_ROOT = \/data\/env\/skynet$/;"	kind:m	line:17
+SMALLSTRING	mylualib-src/lua-mypack.c	/^#define SMALLSTRING /;"	kind:d	line:17	file:
+TYPE_CLOSE	mylualib-src/lua-mypack.c	/^#define TYPE_CLOSE /;"	kind:d	line:23	file:
+TYPE_DATA	mylualib-src/lua-mypack.c	/^#define TYPE_DATA /;"	kind:d	line:19	file:
+TYPE_ERROR	mylualib-src/lua-mypack.c	/^#define TYPE_ERROR /;"	kind:d	line:21	file:
+TYPE_MORE	mylualib-src/lua-mypack.c	/^#define TYPE_MORE /;"	kind:d	line:20	file:
+TYPE_OPEN	mylualib-src/lua-mypack.c	/^#define TYPE_OPEN /;"	kind:d	line:22	file:
+TYPE_WARNING	mylualib-src/lua-mypack.c	/^#define TYPE_WARNING /;"	kind:d	line:24	file:
+__anon5af64b060108	mylualib-src/lua-mypacket.c	/^typedef struct{$/;"	kind:s	line:12	file:
+__anon5af64b060108::buffer_pos	mylualib-src/lua-mypacket.c	/^    int buffer_pos;$/;"	kind:m	line:16	struct:__anon5af64b060108	typeref:typename:int	file:	access:public
+__anon5af64b060108::owner	mylualib-src/lua-mypacket.c	/^    int owner;$/;"	kind:m	line:13	struct:__anon5af64b060108	typeref:typename:int	file:	access:public
+__anon5af64b060108::packet_size	mylualib-src/lua-mypacket.c	/^    int packet_size;$/;"	kind:m	line:17	struct:__anon5af64b060108	typeref:typename:int	file:	access:public
+__anon5af64b060108::read_buffer	mylualib-src/lua-mypacket.c	/^    const char * read_buffer;$/;"	kind:m	line:14	struct:__anon5af64b060108	typeref:typename:const char *	file:	access:public
+__anon5af64b060108::write_buffer	mylualib-src/lua-mypacket.c	/^    char * write_buffer;$/;"	kind:m	line:15	struct:__anon5af64b060108	typeref:typename:char *	file:	access:public
+_free	mylualib-src/lua-mypacket.c	/^_free(lua_State* L) {$/;"	kind:f	line:22	typeref:typename:int	file:	signature:(lua_State * L)
+_gc	mylualib-src/lua-mypacket.c	/^_gc(lua_State *L) {$/;"	kind:f	line:69	typeref:typename:int	file:	signature:(lua_State * L)
+_length	mylualib-src/lua-mypacket.c	/^_length(lua_State *L) {$/;"	kind:f	line:80	typeref:typename:int	file:	signature:(lua_State * L)
+_new	mylualib-src/lua-mypacket.c	/^int _new(lua_State* L) {$/;"	kind:f	line:36	typeref:typename:int	signature:(lua_State * L)
+_pack	mylualib-src/lua-mypacket.c	/^_pack(lua_State *L) {$/;"	kind:f	line:336	typeref:typename:int	file:	signature:(lua_State * L)
+_packet_size	mylualib-src/lua-mypacket.c	/^_packet_size(lua_State *L) {$/;"	kind:f	line:87	typeref:typename:int	file:	signature:(lua_State * L)
+_read	mylualib-src/lua-mypacket.c	/^_read(packet_t *self, char * out, int len) {$/;"	kind:f	line:225	typeref:typename:bool	file:	signature:(packet_t * self,char * out,int len)
+_read_byte	mylualib-src/lua-mypacket.c	/^_read_byte(lua_State *L) {$/;"	kind:f	line:235	typeref:typename:int	file:	signature:(lua_State * L)
+_read_bytes	mylualib-src/lua-mypacket.c	/^_read_bytes(lua_State *L) {$/;"	kind:f	line:298	typeref:typename:int	file:	signature:(lua_State * L)
+_read_float	mylualib-src/lua-mypacket.c	/^_read_float(lua_State *L) {$/;"	kind:f	line:271	typeref:typename:int	file:	signature:(lua_State * L)
+_read_float64	mylualib-src/lua-mypacket.c	/^_read_float64(lua_State *L) {$/;"	kind:f	line:280	typeref:typename:int	file:	signature:(lua_State * L)
+_read_int	mylualib-src/lua-mypacket.c	/^_read_int(lua_State *L) {$/;"	kind:f	line:253	typeref:typename:int	file:	signature:(lua_State * L)
+_read_int64	mylualib-src/lua-mypacket.c	/^_read_int64(lua_State *L) {$/;"	kind:f	line:262	typeref:typename:int	file:	signature:(lua_State * L)
+_read_short	mylualib-src/lua-mypacket.c	/^_read_short(lua_State *L) {$/;"	kind:f	line:244	typeref:typename:int	file:	signature:(lua_State * L)
+_read_string	mylualib-src/lua-mypacket.c	/^_read_string(lua_State *L) {$/;"	kind:f	line:318	typeref:typename:int	file:	signature:(lua_State * L)
+_read_ulong	mylualib-src/lua-mypacket.c	/^_read_ulong(lua_State *L) {$/;"	kind:f	line:289	typeref:typename:int	file:	signature:(lua_State * L)
+_write	mylualib-src/lua-mypacket.c	/^_write(packet_t *self, const char * in, int len) {$/;"	kind:f	line:103	typeref:typename:bool	file:	signature:(packet_t * self,const char * in,int len)
+_write_byte	mylualib-src/lua-mypacket.c	/^_write_byte(lua_State *L) {$/;"	kind:f	line:114	typeref:typename:int	file:	signature:(lua_State * L)
+_write_bytes	mylualib-src/lua-mypacket.c	/^_write_bytes(lua_State *L) {$/;"	kind:f	line:185	typeref:typename:int	file:	signature:(lua_State * L)
+_write_float	mylualib-src/lua-mypacket.c	/^_write_float(lua_State *L) {$/;"	kind:f	line:150	typeref:typename:int	file:	signature:(lua_State * L)
+_write_float64	mylualib-src/lua-mypacket.c	/^_write_float64(lua_State *L) {$/;"	kind:f	line:159	typeref:typename:int	file:	signature:(lua_State * L)
+_write_int	mylualib-src/lua-mypacket.c	/^_write_int(lua_State *L) {$/;"	kind:f	line:132	typeref:typename:int	file:	signature:(lua_State * L)
+_write_int64	mylualib-src/lua-mypacket.c	/^_write_int64(lua_State *L) {$/;"	kind:f	line:141	typeref:typename:int	file:	signature:(lua_State * L)
+_write_short	mylualib-src/lua-mypacket.c	/^_write_short(lua_State *L) {    $/;"	kind:f	line:123	typeref:typename:int	file:	signature:(lua_State * L)
+_write_string	mylualib-src/lua-mypacket.c	/^_write_string(lua_State *L) {$/;"	kind:f	line:209	typeref:typename:int	file:	signature:(lua_State * L)
+_write_ulong	mylualib-src/lua-mypacket.c	/^_write_ulong(lua_State *L) {$/;"	kind:f	line:168	typeref:typename:int	file:	signature:(lua_State * L)
+_write_zero	mylualib-src/lua-mypacket.c	/^_write_zero(lua_State *L) {$/;"	kind:f	line:177	typeref:typename:int	file:	signature:(lua_State * L)
+all	mylualib-src/Makefile	/^all: createln $(BIN)mypack.so $(BIN)mypacket.so$/;"	kind:t	line:24
+buffer	mylualib-src/lua-mypack.c	/^	void * buffer;$/;"	kind:m	line:33	struct:netpack	typeref:typename:void *	file:	access:public
+buffer_pos	mylualib-src/lua-mypacket.c	/^    int buffer_pos;$/;"	kind:m	line:16	struct:__anon5af64b060108	typeref:typename:int	file:	access:public
+by_pack_decrypt	mylualib-src/lua-mypack.c	/^by_pack_decrypt(uint8_t *packet, int begin_pos, int data_size, int check_code) {$/;"	kind:f	line:120	typeref:typename:int	file:	signature:(uint8_t * packet,int begin_pos,int data_size,int check_code)
+by_pack_encrypt	mylualib-src/lua-mypack.c	/^by_pack_encrypt(uint8_t *packet, int begin_pos, int data_size) {$/;"	kind:f	line:134	typeref:typename:int	file:	signature:(uint8_t * packet,int begin_pos,int data_size)
+cap	mylualib-src/lua-mypack.c	/^	int cap;$/;"	kind:m	line:50	struct:queue	typeref:typename:int	file:	access:public
+check_code	mylualib-src/lua-mypack.c	/^	int check_code;$/;"	kind:m	line:44	struct:uncomplete	typeref:typename:int	file:	access:public
+check_packet	mylualib-src/lua-mypacket.c	/^check_packet(lua_State* L) {$/;"	kind:f	line:31	typeref:typename:packet_t *	file:	signature:(lua_State * L)
+check_read_packet	mylualib-src/lua-mypacket.c	/^check_read_packet(lua_State *L, int len) {$/;"	kind:f	line:215	typeref:typename:packet_t *	file:	signature:(lua_State * L,int len)
+check_write_packet	mylualib-src/lua-mypacket.c	/^check_write_packet(lua_State *L, int len) {$/;"	kind:f	line:94	typeref:typename:packet_t *	file:	signature:(lua_State * L,int len)
+clean	mylualib-src/Makefile	/^clean:$/;"	kind:t	line:37
+clear_list	mylualib-src/lua-mypack.c	/^clear_list(struct uncomplete * uc) {$/;"	kind:f	line:58	typeref:typename:void	file:	signature:(struct uncomplete * uc)
+close_uncomplete	mylualib-src/lua-mypack.c	/^close_uncomplete(lua_State *L, int fd) {$/;"	kind:f	line:351	typeref:typename:void	file:	signature:(lua_State * L,int fd)
+cmd	mylualib-src/lua-mypack.c	/^	uint16_t cmd;$/;"	kind:m	line:35	struct:netpack	typeref:typename:uint16_t	file:	access:public
+cmd	mylualib-src/lua-mypack.c	/^    uint16_t cmd;$/;"	kind:m	line:74	struct:my_header	typeref:typename:uint16_t	file:	access:public
+code	mylualib-src/lua-mypack.c	/^    int8_t code;$/;"	kind:m	line:78	struct:my_header	typeref:typename:int8_t	file:	access:public
+config	mylualib-src/Makefile	/^config ?= debug$/;"	kind:m	line:19
+createln	mylualib-src/Makefile	/^createln:$/;"	kind:t	line:29
+custom-by-skynet	README.org	/^* custom-by-skynet$/;"	kind:p	line:1
+existDir	mylualib-src/Makefile	/^existDir=$(shell if [ -d $(soPath) ]; then echo "yes"; else echo "no"; fi;)$/;"	kind:m	line:20
+expand_queue	mylualib-src/lua-mypack.c	/^expand_queue(lua_State *L, struct queue *q) {$/;"	kind:f	line:219	typeref:typename:void	file:	signature:(lua_State * L,struct queue * q)
+filter_data	mylualib-src/lua-mypack.c	/^filter_data(lua_State *L, int fd, uint8_t * buffer, int size) {$/;"	kind:f	line:573	typeref:typename:int	file:	signature:(lua_State * L,int fd,uint8_t * buffer,int size)
+filter_data_	mylualib-src/lua-mypack.c	/^filter_data_(lua_State *L, int fd, uint8_t * buffer, int size) {$/;"	kind:f	line:361	typeref:typename:int	file:	signature:(lua_State * L,int fd,uint8_t * buffer,int size)
+find_uncomplete	mylualib-src/lua-mypack.c	/^find_uncomplete(struct queue *q, int fd) {$/;"	kind:f	line:178	typeref:struct:uncomplete *	file:	signature:(struct queue * q,int fd)
+flag	mylualib-src/lua-mypack.c	/^	int8_t flag;$/;"	kind:m	line:34	struct:netpack	typeref:typename:int8_t	file:	access:public
+flag	mylualib-src/lua-mypack.c	/^	int8_t flag;$/;"	kind:m	line:45	struct:uncomplete	typeref:typename:int8_t	file:	access:public
+flag	mylualib-src/lua-mypack.c	/^    int8_t flag[2];$/;"	kind:m	line:73	struct:my_header	typeref:typename:int8_t[2]	file:	access:public
+get_queue	mylualib-src/lua-mypack.c	/^get_queue(lua_State *L) {$/;"	kind:f	line:202	typeref:struct:queue *	file:	signature:(lua_State * L)
+hash	mylualib-src/lua-mypack.c	/^	struct uncomplete * hash[HASHSIZE];$/;"	kind:m	line:53	struct:queue	typeref:struct:uncomplete * []	file:	access:public
+hash_fd	mylualib-src/lua-mypack.c	/^hash_fd(int fd) {$/;"	kind:f	line:170	typeref:typename:int	file:	signature:(int fd)
+head	mylualib-src/lua-mypack.c	/^	int head;$/;"	kind:m	line:51	struct:queue	typeref:typename:int	file:	access:public
+id	mylualib-src/lua-mypack.c	/^	int id;$/;"	kind:m	line:31	struct:netpack	typeref:typename:int	file:	access:public
+lclear	mylualib-src/lua-mypack.c	/^lclear(lua_State *L) {$/;"	kind:f	line:147	typeref:typename:int	file:	signature:(lua_State * L)
+length	mylualib-src/lua-mypack.c	/^    uint16_t length; \/\/short$/;"	kind:m	line:77	struct:my_header	typeref:typename:uint16_t	file:	access:public
+lfilter	mylualib-src/lua-mypack.c	/^lfilter(lua_State *L) {$/;"	kind:f	line:601	typeref:typename:int	file:	signature:(lua_State * L)
+lmypack	mylualib-src/lua-mypack.c	/^lmypack(lua_State *L) {$/;"	kind:f	line:702	typeref:typename:int	file:	signature:(lua_State * L)
+lpack	mylualib-src/lua-mypack.c	/^lpack(lua_State *L) {$/;"	kind:f	line:764	typeref:typename:int	file:	signature:(lua_State * L)
+lpop	mylualib-src/lua-mypack.c	/^lpop(lua_State *L) {$/;"	kind:f	line:660	typeref:typename:int	file:	signature:(lua_State * L)
+ltostring	mylualib-src/lua-mypack.c	/^ltostring(lua_State *L) {$/;"	kind:f	line:782	typeref:typename:int	file:	signature:(lua_State * L)
+luaopen_mypack_lxt	mylualib-src/lua-mypack.c	/^luaopen_mypack_lxt(lua_State *L) {$/;"	kind:f	line:795	typeref:typename:LUAMOD_API int	signature:(lua_State * L)
+luaopen_mypacket_lxt	mylualib-src/lua-mypacket.c	/^int luaopen_mypacket_lxt(lua_State *L) {$/;"	kind:f	line:345	typeref:typename:int	signature:(lua_State * L)
+my_header	mylualib-src/lua-mypack.c	/^struct my_header {$/;"	kind:s	line:72	file:
+my_header::cmd	mylualib-src/lua-mypack.c	/^    uint16_t cmd;$/;"	kind:m	line:74	struct:my_header	typeref:typename:uint16_t	file:	access:public
+my_header::code	mylualib-src/lua-mypack.c	/^    int8_t code;$/;"	kind:m	line:78	struct:my_header	typeref:typename:int8_t	file:	access:public
+my_header::flag	mylualib-src/lua-mypack.c	/^    int8_t flag[2];$/;"	kind:m	line:73	struct:my_header	typeref:typename:int8_t[2]	file:	access:public
+my_header::length	mylualib-src/lua-mypack.c	/^    uint16_t length; \/\/short$/;"	kind:m	line:77	struct:my_header	typeref:typename:uint16_t	file:	access:public
+my_header::seq	mylualib-src/lua-mypack.c	/^    int32_t seq;$/;"	kind:m	line:79	struct:my_header	typeref:typename:int32_t	file:	access:public
+my_header::subversion	mylualib-src/lua-mypack.c	/^    int8_t subversion;$/;"	kind:m	line:76	struct:my_header	typeref:typename:int8_t	file:	access:public
+my_header::version	mylualib-src/lua-mypack.c	/^    int8_t version;$/;"	kind:m	line:75	struct:my_header	typeref:typename:int8_t	file:	access:public
+mypack	mylualib-src/lua-mypack.c	/^static int mypack(void * temp_buffer, int8_t flag, uint16_t cmd, int8_t version, int8_t subversi/;"	kind:f	line:679	typeref:typename:int	file:	signature:(void * temp_buffer,int8_t flag,uint16_t cmd,int8_t version,int8_t subversion,uint32_t seq,uint16_t length,void * buffer)
+netpack	mylualib-src/lua-mypack.c	/^struct netpack {$/;"	kind:s	line:30	file:
+netpack::buffer	mylualib-src/lua-mypack.c	/^	void * buffer;$/;"	kind:m	line:33	struct:netpack	typeref:typename:void *	file:	access:public
+netpack::cmd	mylualib-src/lua-mypack.c	/^	uint16_t cmd;$/;"	kind:m	line:35	struct:netpack	typeref:typename:uint16_t	file:	access:public
+netpack::flag	mylualib-src/lua-mypack.c	/^	int8_t flag;$/;"	kind:m	line:34	struct:netpack	typeref:typename:int8_t	file:	access:public
+netpack::id	mylualib-src/lua-mypack.c	/^	int id;$/;"	kind:m	line:31	struct:netpack	typeref:typename:int	file:	access:public
+netpack::size	mylualib-src/lua-mypack.c	/^	int size;$/;"	kind:m	line:32	struct:netpack	typeref:typename:int	file:	access:public
+netpack::subversion	mylualib-src/lua-mypack.c	/^    int8_t subversion;	$/;"	kind:m	line:37	struct:netpack	typeref:typename:int8_t	file:	access:public
+netpack::version	mylualib-src/lua-mypack.c	/^    int8_t version;$/;"	kind:m	line:36	struct:netpack	typeref:typename:int8_t	file:	access:public
+next	mylualib-src/lua-mypack.c	/^	struct uncomplete * next;$/;"	kind:m	line:42	struct:uncomplete	typeref:struct:uncomplete *	file:	access:public
+owner	mylualib-src/lua-mypacket.c	/^    int owner;$/;"	kind:m	line:13	struct:__anon5af64b060108	typeref:typename:int	file:	access:public
+pack	mylualib-src/lua-mypack.c	/^	struct netpack pack;$/;"	kind:m	line:41	struct:uncomplete	typeref:struct:netpack	file:	access:public
+packet_size	mylualib-src/lua-mypacket.c	/^    int packet_size;$/;"	kind:m	line:17	struct:__anon5af64b060108	typeref:typename:int	file:	access:public
+packet_t	mylualib-src/lua-mypacket.c	/^} packet_t;$/;"	kind:t	line:18	typeref:struct:__anon5af64b060108	file:
+push_data	mylualib-src/lua-mypack.c	/^push_data(lua_State *L, int fd, void *buffer, int size, int clone, $/;"	kind:f	line:236	typeref:typename:void	file:	signature:(lua_State * L,int fd,void * buffer,int size,int clone,int check_code,int8_t flag,uint16_t cmd,int8_t version,int8_t subversion)
+push_more	mylualib-src/lua-mypack.c	/^push_more(lua_State *L, int fd, uint8_t *buffer, int size) {$/;"	kind:f	line:285	typeref:typename:void	file:	signature:(lua_State * L,int fd,uint8_t * buffer,int size)
+pushstring	mylualib-src/lua-mypack.c	/^pushstring(lua_State *L, const char * msg, int size) {$/;"	kind:f	line:582	typeref:typename:void	file:	signature:(lua_State * L,const char * msg,int size)
+queue	mylualib-src/lua-mypack.c	/^	struct netpack queue[QUEUESIZE];$/;"	kind:m	line:54	struct:queue	typeref:struct:netpack[]	file:	access:public
+queue	mylualib-src/lua-mypack.c	/^struct queue {$/;"	kind:s	line:49	file:
+queue::cap	mylualib-src/lua-mypack.c	/^	int cap;$/;"	kind:m	line:50	struct:queue	typeref:typename:int	file:	access:public
+queue::hash	mylualib-src/lua-mypack.c	/^	struct uncomplete * hash[HASHSIZE];$/;"	kind:m	line:53	struct:queue	typeref:struct:uncomplete * []	file:	access:public
+queue::head	mylualib-src/lua-mypack.c	/^	int head;$/;"	kind:m	line:51	struct:queue	typeref:typename:int	file:	access:public
+queue::queue	mylualib-src/lua-mypack.c	/^	struct netpack queue[QUEUESIZE];$/;"	kind:m	line:54	struct:queue	typeref:struct:netpack[]	file:	access:public
+queue::tail	mylualib-src/lua-mypack.c	/^	int tail;$/;"	kind:m	line:52	struct:queue	typeref:typename:int	file:	access:public
+read	mylualib-src/lua-mypack.c	/^	int read;$/;"	kind:m	line:43	struct:uncomplete	typeref:typename:int	file:	access:public
+read_buffer	mylualib-src/lua-mypacket.c	/^    const char * read_buffer;$/;"	kind:m	line:14	struct:__anon5af64b060108	typeref:typename:const char *	file:	access:public
+read_size	mylualib-src/lua-mypack.c	/^read_size(uint8_t * buffer) {$/;"	kind:f	line:279	typeref:typename:int	file:	signature:(uint8_t * buffer)
+rebuild	mylualib-src/Makefile	/^rebuild: clean all	$/;"	kind:t	line:40
+recv_byte_map	mylualib-src/lua-mypack.c	/^static const uint16_t recv_byte_map[256] = {$/;"	kind:v	line:82	typeref:typename:const uint16_t[256]	file:
+save_uncomplete	mylualib-src/lua-mypack.c	/^save_uncomplete(lua_State *L, int fd) {$/;"	kind:f	line:266	typeref:struct:uncomplete *	file:	signature:(lua_State * L,int fd)
+send_byte_map	mylualib-src/lua-mypack.c	/^static const uint16_t send_byte_map[256] = {$/;"	kind:v	line:100	typeref:typename:const uint16_t[256]	file:
+seq	mylualib-src/lua-mypack.c	/^    int32_t seq;$/;"	kind:m	line:79	struct:my_header	typeref:typename:int32_t	file:	access:public
+size	mylualib-src/lua-mypack.c	/^	int size;$/;"	kind:m	line:32	struct:netpack	typeref:typename:int	file:	access:public
+subversion	mylualib-src/lua-mypack.c	/^    int8_t subversion;	$/;"	kind:m	line:37	struct:netpack	typeref:typename:int8_t	file:	access:public
+subversion	mylualib-src/lua-mypack.c	/^    int8_t subversion;$/;"	kind:m	line:76	struct:my_header	typeref:typename:int8_t	file:	access:public
+tail	mylualib-src/lua-mypack.c	/^	int tail;$/;"	kind:m	line:52	struct:queue	typeref:typename:int	file:	access:public
+tolstring	mylualib-src/lua-mypack.c	/^tolstring(lua_State *L, size_t *sz, int index) {$/;"	kind:f	line:746	typeref:typename:const char *	file:	signature:(lua_State * L,size_t * sz,int index)
+uncomplete	mylualib-src/lua-mypack.c	/^struct uncomplete {$/;"	kind:s	line:40	file:
+uncomplete::check_code	mylualib-src/lua-mypack.c	/^	int check_code;$/;"	kind:m	line:44	struct:uncomplete	typeref:typename:int	file:	access:public
+uncomplete::flag	mylualib-src/lua-mypack.c	/^	int8_t flag;$/;"	kind:m	line:45	struct:uncomplete	typeref:typename:int8_t	file:	access:public
+uncomplete::next	mylualib-src/lua-mypack.c	/^	struct uncomplete * next;$/;"	kind:m	line:42	struct:uncomplete	typeref:struct:uncomplete *	file:	access:public
+uncomplete::pack	mylualib-src/lua-mypack.c	/^	struct netpack pack;$/;"	kind:m	line:41	struct:uncomplete	typeref:struct:netpack	file:	access:public
+uncomplete::read	mylualib-src/lua-mypack.c	/^	int read;$/;"	kind:m	line:43	struct:uncomplete	typeref:typename:int	file:	access:public
+version	mylualib-src/lua-mypack.c	/^    int8_t version;$/;"	kind:m	line:36	struct:netpack	typeref:typename:int8_t	file:	access:public
+version	mylualib-src/lua-mypack.c	/^    int8_t version;$/;"	kind:m	line:75	struct:my_header	typeref:typename:int8_t	file:	access:public
+write_buffer	mylualib-src/lua-mypacket.c	/^    char * write_buffer;$/;"	kind:m	line:15	struct:__anon5af64b060108	typeref:typename:char *	file:	access:public
+write_size	mylualib-src/lua-mypack.c	/^write_size(uint8_t * buffer, int len) {$/;"	kind:f	line:758	typeref:typename:void	file:	signature:(uint8_t * buffer,int len)
