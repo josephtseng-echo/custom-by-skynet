@@ -1,2 +1,31 @@
 * custom-by-skynet
 skynet custom common libs
+
+** lua-mypack
+#+begin_src lua
+-- 修改 自定义gateserver.lua
+local netpack = require "mypack.lxt"
+即可使用自定义协议
+
+-- 使用自定义头封包
+local str, size =  netpack.bypack(1, 0x1001, string.len(data), data)
+#+end_src
+
+** lua-mypacket
+#+begin_src lua
+local packet = require "mypacket.lxt"
+
+-- 读取
+local r = packet.new(msg, size)
+local rr = r:read_string()
+......
+r:free()
+
+-- 写入
+local data = packet.new(30)
+data:write_string("test")
+......
+local wdata, wsz = data:pack()
+data:free()
+buffer = netpack.tostring(wdata, wsz)
+#+end_src
